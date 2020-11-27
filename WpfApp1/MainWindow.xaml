@@ -68,6 +68,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
             <Button Grid.Column="1" Width="100" Height="50" Grid.Row="2" Content="{Binding Name}" Panel.ZIndex="5" Background="Red"/>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="179,38,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75"/>
             <!--<Button Grid.Column="1" Width="100" Height="50" Grid.Row="2" Panel.ZIndex="9" Background="Gold"/>-->
             
         </Grid>
